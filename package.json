@@ -1,0 +1,55 @@
+{
+    "name": "datatables.net-columncontrol-bs4",
+    "description": "ColumnControl for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
+    "main": "js/columnControl.bootstrap4.js",
+    "module": "js/columnControl.bootstrap4.mjs",
+    "style": "css/columnControl.bootstrap4.css",
+    "types": "./types/columnControl.bootstrap4.d.ts",
+    "version": "0.0.1",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js",
+        "js/**/*.mjs",
+        "types/**/*.d.ts"
+    ],
+    "keywords": [
+        "ColumnControl",
+ "search",
+ "filter",
+ "buttons",
+ "column visibility",
+        "Bootstrap",
+ "Bootstrap4",
+        "Datatables",
+        "jQuery",
+        "table",
+        "filter",
+        "sort"
+    ],
+    "dependencies": {
+        "datatables.net-columncontrol": "~0.0.1",
+        "datatables.net-bs4": "~2.2",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-ColumnControl-Bootstrap4.git"
+    }
+}
