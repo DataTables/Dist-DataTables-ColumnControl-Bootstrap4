@@ -1,13 +1,9 @@
-/*! Bootstrap 4 styling wrapper for ColumnControl
- * © SpryMedia Ltd - datatables.net/license
+/*! ColumnControl Bootstrap 4 styling 2.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
-import jQuery from 'jquery';
 import DataTable from 'datatables.net-bs4';
 import ColumnControl from 'datatables.net-columncontrol';
-
-// Allow reassignment of the $ variable
-let $ = jQuery;
 
 
 DataTable.ColumnControl.content.dropdown.classes.container = [
@@ -26,3 +22,4 @@ DataTable.ColumnControl.SearchInput.classes.select = ['form-control', 'form-cont
 
 
 export default DataTable;
+
