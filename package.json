@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-columncontrol-bs4",
     "description": "ColumnControl for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
-    "main": "js/columnControl.bootstrap4.js",
-    "module": "js/columnControl.bootstrap4.mjs",
-    "style": "css/columnControl.bootstrap4.css",
+    "main": "./js/columnControl.bootstrap4.js",
+    "module": "./js/columnControl.bootstrap4.mjs",
+    "style": "./css/columnControl.bootstrap4.css",
     "types": "./types/columnControl.bootstrap4.d.ts",
     "version": "2.0.2",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "ColumnControl",
@@ -39,5 +38,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/ColumnControl.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/columnControl.bootstrap4.d.ts",
+            "import": "./js/columnControl.bootstrap4.mjs",
+            "default": "./js/columnControl.bootstrap4.mjs",
+            "require": "./js/columnControl.bootstrap4.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/columnControl.bootstrap4.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
