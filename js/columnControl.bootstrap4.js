@@ -1,4 +1,4 @@
-/*! ColumnControl Bootstrap 4 styling 2.1.1 for DataTables
+/*! ColumnControl Bootstrap 4 styling 2.1.2 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
